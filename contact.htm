@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      New Perspectives on HTML and CSS
+      Final Project
+
+      Zandrea Eslick's Resume
+      Author: Zandrea Eslick
+      Date:   29 April 2017
+
+      Filename:        contact.htm
+      Supporting files: index.htm, skills.htm, work.htm, body.jpeg, cv_reset.css, layout_cv.css,
+						formsubmit.js, go.png, stop.png, images.jpeg, modernizr-1.5.js, print_cv.css,
+						square.png, zandy.png
+                        
+
+   -->
+
+      <meta charset="UTF-8" />	  
+
+      <title>Zandrea Eslick's Resume</title>
+      <script src="modernizr-1.5.js"></script>
+
+      
+      <link href="cv_reset.css" rel="stylesheet" />
+      <link href="layout_cv.css" rel="stylesheet" media="screen" />
+	  
+	  <link href="print_cv.css" rel="stylesheet" media="print" /> 
+	  
+	  <script type="text/javascript" src="functionsindex.js"></script>
+	  
+	  
+	
+</style>
+
+   </head>
+   
+    <body>
+      <header>
+		
+        <h1>Zandrea Eslick</h1>	
+      </header> 
+	
+	 <section >	
+				
+		
+		
+		  <nav>
+		  
+		  <ul>
+		   <img src="zandy.png" alt="Zandrea Eslick" title="Zandrea Eslick" />
+		   
+		   <li><a href="index.htm">Career Goals</a></li>
+            <li><a href="work.htm">Work Experience</a></li>
+            <li><a href="skills.htm">Skills <br />and <br/> Education</a></li>
+            <li><a href="contact.htm">Contact Page</a></li>
+		 </ul>
+           
+         </nav>
+	  
+		  
+   
+		<article>	
+				
+		
+		<h1>&#9742; Contact Information<br /></h1>
+		<p>	
+		&#127968; 320 W Vicksburg St., Broken Arrow OK 74011<br />		
+		&#9743; Landline No. 918-872-1111/Cel No. 918-780-0000<br />	
+		&#128231; <a href="mailto:zandy_mike@yahoo.com?subject=Contact%20Message">zandy_mike@yahoo.com<br /><br />
+		</a>
+		
+		</p>
+		 
+		<h3>You can also leave your contact information below:  <br /></h3>
+		<form id="contact" name="contact"
+			action="http://zeslick15.webstudentsites.com//cgi-bin/contact"
+			method="post">
+			
+		  <fieldset id="contactFS">
+		 
+			<label for="contactname">Name </label>		
+			<input name="contactname" id="contactname"
+					placeholder="first and last name"/>
+			</label>
+					
+			<label for="email"> Email </label>
+			<input name="email" id="email" type="email"	/>	  
+			
+			<label for="phone"> Phone number</label>
+			<input name="phone" id="phone" type="tel"
+				placeholder="(nnn) nnn-nnnn"
+				pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />	
+				
+			<label for="comments">Comments <br />(400 character limit)</label>
+			
+            <textarea name="comments" id="comments" type="comments" max="400"></textarea>		   
+			
+			<input type="submit" value="Submit"/>
+			
+		  </fieldset>
+			
+		  
+		 </form>		
+		
+		<footer>
+			<em>*References available upon request</em>
+		</footer>
+	
+		</article>		
+			
+	  
+	  
+	  </section>
+	  
+	</body>
+	
+</html>

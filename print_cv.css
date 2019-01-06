@@ -1,0 +1,48 @@
+/*
+	New Perspectives on HTML and CSS
+      Final Project
+    
+
+   Print Styles
+   Author: Zandrea Eslick
+   Date:   30 April 2017
+
+   Filename:         print_cv.css
+   Supporting Files: zandy.png
+
+*/
+
+/* Styles to be used for print displays */
+@page {
+  size: 8.5in 11in portrait;
+  margin: 0.5in;
+}
+
+/* Hide page elements that will not be printed */
+
+header, nav li, footer, form, h3 {
+  display: none;
+}
+
+/* Setting the page beaks in the document */
+
+article {
+  display: block;
+  page-break-after: always;
+  page-break-inside: avoid;
+}
+
+/* Styles for the p ,img and h1 heading */
+
+p, h1 {
+  font-size: 28pt;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  display: block;
+  margin: 0in auto;
+  width: 4in;
+}
+

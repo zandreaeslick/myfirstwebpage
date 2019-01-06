@@ -1,0 +1,59 @@
+/*
+   New Perspectives on HTML and CSS
+   Final Project
+
+   Cycle Pathology Styles to Reset Style Defaults
+    Author: Zandrea Eslick
+    Date:   29 February 2017  
+
+   Filename:         cv_reset.css
+   Supporting Files: none
+
+*/
+
+
+/* Display HTML5 structural elements as blocks */
+
+article, header, 
+section, nav, footer  {
+   display: block;
+}
+
+
+/* Set the default page element styles */
+
+body {
+	
+   background-image:url("body.jpeg");  
+   background-size:100%;   
+   margin: 0px;
+   width: 100%;
+}
+
+body * {
+
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.2em;  
+   margin: 0px;
+   padding: 0px;  
+   text-decoration: none;
+   vertical-align: baseline; 
+
+}
+
+
+/* Web table styles */
+/*Work Experience Page Style Rule*/
+
+article table {
+   border: 2px solid black;
+   border-collapse: collapse;  
+   width: 60%;
+   margin: 10px auto;
+}
+
+
+
+
